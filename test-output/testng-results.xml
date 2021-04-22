@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17243" started-at="2021-04-22T09:42:42 CEST" finished-at="2021-04-22T09:42:59 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17243" started-at="2021-04-22T09:42:42 CEST" finished-at="2021-04-22T09:42:59 CEST">
+      <class name="com.check.qa.testcases.CheckTFMainTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="basicSetUp" is-config="true" duration-ms="1163" started-at="2021-04-22T09:42:42 CEST" finished-at="2021-04-22T09:42:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="launchURL" duration-ms="5409" started-at="2021-04-22T09:42:43 CEST" finished-at="2021-04-22T09:42:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="verifyCookieDetails(java.lang.String)[pri:2, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="verifyCookieDetails" duration-ms="189" started-at="2021-04-22T09:42:49 CEST" finished-at="2021-04-22T09:42:49 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kreditkarte]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookieDetails -->
+        <test-method status="PASS" signature="clickFirstProductEnterAndEnterEmail(java.lang.String)[pri:3, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="clickFirstProductEnterAndEnterEmail" duration-ms="3187" started-at="2021-04-22T09:42:49 CEST" finished-at="2021-04-22T09:42:52 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstProductEnterAndEnterEmail -->
+        <test-method status="PASS" signature="clickGuestAsLink()[pri:4, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="clickGuestAsLink" duration-ms="413" started-at="2021-04-22T09:42:52 CEST" finished-at="2021-04-22T09:42:53 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGuestAsLink -->
+        <test-method status="PASS" signature="verifyErrMsgsForForm()[pri:5, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="verifyErrMsgsForForm" duration-ms="1537" started-at="2021-04-22T09:42:53 CEST" finished-at="2021-04-22T09:42:54 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrMsgsForForm -->
+        <test-method status="PASS" signature="insertDatainForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="insertDatainForm" duration-ms="3355" started-at="2021-04-22T09:42:55 CEST" data-provider="passSheet" finished-at="2021-04-22T09:42:59 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ls]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01.08.1989]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ledig]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Deutschland]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[81375.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Gräfelfinger Str.]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Eigenheim]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4915205738278]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertDatainForm -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.check.qa.testcases.CheckTFMainTest@612fc6eb]" name="closeBrowser" is-config="true" duration-ms="804" started-at="2021-04-22T09:42:59 CEST" finished-at="2021-04-22T09:42:59 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.check.qa.testcases.CheckTFMainTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
